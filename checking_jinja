@@ -1,0 +1,3 @@
+{% set my_variable = "Hello, dbt with Jinja!" %}
+
+SELECT '{{ my_variable }}' as greeting
