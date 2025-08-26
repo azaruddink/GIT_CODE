@@ -1,3 +1,6 @@
 {% set my_variable = "Hello, dbt with Jinja!" %}
 
 SELECT '{{ my_variable }}' as greeting
+
+SELECT '{{ my_variable }}' as greeting1
+

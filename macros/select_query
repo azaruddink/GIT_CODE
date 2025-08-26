@@ -2,3 +2,10 @@
 
 select * from raw.jaffle_shop.customer_orders
 select * from raw.jaffle_shop.ordes
+
+{% set my_variable = "Hello, dbt with Jinja!" %}
+
+SELECT '{{ my_variable }}' as greeting
+
+
+select '{{my_variable}}' as azar
